@@ -3,7 +3,7 @@
 app.config(
   function($routeProvider){
     $routeProvider
-    .when('/items/', {
+    .when('!/items/', {
       controller : 'itemList',
       templateUrl : 'views/item/list.html'
     })
